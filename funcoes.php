@@ -89,9 +89,9 @@ function encerrarComErro(string $mensagem, int $status = 400): never
     echo 'main{display:flex;justify-content:center;padding:30px 15px 80px;}';
     echo 'p{max-width:560px;margin:20px auto;background:#fff;padding:25px;border-radius:12px;box-shadow:0 4px 18px rgba(0,0,0,.08);text-align:center;}';
     echo 'a{color:#111;font-weight:bold;text-decoration:none;}';
-    echo 'footer{position:fixed;bottom:0;left:0;width:100%;background:rgba(255,255,255,.9);text-align:left;padding:14px 10px;font-size:14px;border-top:1px solid #e5e5e5;}</style></head><body>';
+    echo 'footer{position:fixed;bottom:0;left:0;width:100%;background:rgba(255,255,255,.9);text-align:left;padding:20px 10px;font-size:14px;border-top:1px solid #e5e5e5;}</style></head><body>';
     echo '<header><h1>Erro</h1><nav><a href="listar.php">Fórum</a> | <a href="cadastro.php">Cadastro</a> | <a href="login.php">Login</a></nav></header>';
     echo '<main><p>' . escapar($mensagem) . '</p></main>';
-    echo '<footer>2026. DEV Davhcruz            <a href="https://github.com/Davihr">Conheça meu trabalho</a></footer></body></html>';
+    echo '<footer>2026. DEV Davhcruz        <a href="https://github.com/Davihr">Conheça meu trabalho</a></footer></body></html>';
     exit;
 }

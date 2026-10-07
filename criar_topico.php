@@ -116,7 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             width: 100%;
             background: rgba(255,255,255,.9);
             text-align: left;
-            padding: 14px 10px;
+            padding: 7px 5px;
             font-size: 14px;
             border-top: 1px solid #e5e5e5;
         }
@@ -155,7 +155,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </section>
     </main>
     <footer>
-        2026. DEV Davhcruz            <a href="https://github.com/Davihr">Conheça meu trabalho</a><p>
+        <p>2026. DEV Davhcruz            <a href="https://github.com/Davihr">Conheça meu trabalho</a><p>
     </footer>
 </body>
 </html>
